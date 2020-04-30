@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -w ./src --exec \"babel-node ./src\""
+    "dev": "nodemon -w ./src --exec \"babel-node ./src\"",
+    "start": "nodemon -w ./src --exec \"babel-node ./src\""
   },
   "keywords": [],
   "author": "Radek Wawrzyk",
