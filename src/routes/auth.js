@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import AuthController from '../controllers/AuthController';
+import AuthController from '../controllers/authController';
 import passport from 'passport';
 import jwtAuth from '../middlewares/auth';
 
