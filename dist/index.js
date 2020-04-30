@@ -30,6 +30,8 @@ var _database2 = _interopRequireDefault(_database);
 
 var _errors = require('./middlewares/errors');
 
+require('regenerator-runtime/runtime.js');
+
 var _items = require('./routes/items');
 
 var _items2 = _interopRequireDefault(_items);

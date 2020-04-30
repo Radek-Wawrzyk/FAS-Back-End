@@ -10,6 +10,7 @@ import mongoose from 'mongoose';
 import passport from './config/passport';
 import dbConfig from './config/database';
 import { notFound, catchErrors } from './middlewares/errors';
+import "regenerator-runtime/runtime.js";
 
 // Routes
 import Items from './routes/items';
